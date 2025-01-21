@@ -29,7 +29,7 @@ WHERE percentage_laid_off = 1
 ORDER BY funds_raised DESC;
 
 
--- Well known companies like Amazon seem to lay off more workers. II am assuming that it's because of the large amount of workers they have.
+-- Well known companies like Amazon seem to lay off more workers. I am assuming that it's because of the large amount of workers they have.
 SELECT company, SUM(total_laid_off)
 FROM layoffs_copy2
 GROUP BY company
